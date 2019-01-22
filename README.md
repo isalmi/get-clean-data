@@ -24,7 +24,8 @@ The dplyr package must be installed in local directory.
 ## Script Procedure
 When the script is run, it will generate file "tidyData.csv" in the "data" 
 directory, with variables as described in the codebook. The script executes the
-following steps:
+following steps (not necessarily corresponding to the steps in the assignment
+instructions):
 
 1. Reads in the subject_train, X_train, and y_train files. X_ represents all the 
 data variables collected, with 7352 observations of 561 variables. The subject_
