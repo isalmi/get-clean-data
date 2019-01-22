@@ -54,8 +54,10 @@ by the designations in activity_labels.txt.
 6. The measure variables are all renamed with descriptive character strings,
 guided by the original codebook. 
 
-8. 
-
+7. The final_data set is grouped by subjects, then activities. Summarize is called
+on this grouped data frame to find the mean for each variable for each subject 
+during each activity. This result is written to tidyDataBySubjects.txt in the data
+directory.
 
 
 
